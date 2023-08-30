@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "592352587730",
+    "firebase_url": "https://pinknblue-75dcd.firebaseio.com",
+    "project_id": "pinknblue-75dcd",
+    "storage_bucket": "pinknblue-75dcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592352587730:android:63357a6e87bb41e5",
+        "android_client_info": {
+          "package_name": "com.pinknblue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592352587730-i5a2bjr9etfg8ctc7hjr2ufb9cunms0g.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "592352587730-i5a2bjr9etfg8ctc7hjr2ufb9cunms0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBizyl04A9LqAOfhHsmVfxwLTU6O2L-0no"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

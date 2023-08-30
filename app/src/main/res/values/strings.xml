@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">PinknBlue</string>
+
+<!--    <string name="api_key">AIzaSyDm5QdqjwIhOg9OIa9SbllAhoELJyVYnr8</string>-->
+
+    <string name="api_key">AIzaSyDTgx6ixAiXlFWa_cLJX7MGA-jqWk17Q84</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_forgot_pass">ForgotPassActivity</string>
+    <string name="forgot_title">Forgot Your Password?</string>
+    <string name="forgot_message">Please enter your email address below to\n receive a temporary password.</string>
+    <string name="reset_title">Reset password</string>
+    <string name="routs_title">Route Details</string>
+    <string name="routs_mesage">Find out the first, last, and in-between times for all stops on each route.</string>
+
+    <string name="map_title">Map</string>
+    <string name="map_mesage">Zoom in to see images and details of the route stops and nearby hotspots.</string>
+
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_mesage">Be alerted of route changes, delays, and more. </string>
+
+    <string name="buldle_title">Feature Bundle</string>
+    <string name="bundle_mesage">Save money and unlock all of our features for one great price. </string>
+
+
+    <string name="tearm">Terms &amp; Conditions</string>
+    <string name="bus_stop">Bus\nStop</string>
+    <string name="time">AM \n09:00</string>
+    <string name="reset"><u>RESET</u></string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_comman">CommanActivity</string>
+
+    <string name="token">"Token"</string>
+    <string name="cvv">CVV</string>
+    <string name="card_number">Card Number</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="button_text_token">PAY NOW</string>
+    <string name="progress_message">Payment in progress, Please be patience</string>
+    <string name="progress_title">Please Wait</string>
+    <string name="data_descriptor">"Data Descriptor :  "</string>
+    <string name="data_value">"Data Value:  "</string>
+    <string name="error">Error</string>
+    <string name="code">"Code: "</string>
+    <string name="message">"Message: "</string>
+    <string name="invalid_card_number">Invalid Card Number</string>
+    <string name="invalid_month">Invalid Month</string>
+    <string name="two_digit_month">Two Digit Month Required</string>
+    <string name="invalid_year">Invalid Year</string>
+    <string name="invalid_cvv">Invalid CVV</string>
+    <string name="invalid_zipcode">Invalid Zipcode</string>
+</resources>

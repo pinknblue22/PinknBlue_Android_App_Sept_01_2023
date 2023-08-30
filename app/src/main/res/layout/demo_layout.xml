@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <!--       <EditText
+                       android:id="@+id/txt_rmsg"
+                       android:layout_width="match_parent"
+                       android:layout_height="50dp"
+                       android:inputType="text"
+                       android:textAppearance="?android:attr/textAppearanceMedium"
+                       android:textColor="#ff000000" /> -->
+
+        <!--    <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:columnCount="2"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:rowCount="30"
+                android:useDefaultMargins="true" >-->
+
+                <Button
+                    android:id="@+id/btn_attivazione"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="onAVSAuthVoid"
+                    android:text="avsauthvoid"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    />
+
+                <Button
+                    android:id="@+id/btn_avspurchasevoid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="onAVSPurchaseVoid"
+                    android:text="avspurchasevoid"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_avsauthcapture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="onAVSAuthCapture"
+                    android:text="avsauthcapture"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <Button
+                    android:id="@+id/btn_purchaserefund"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="onAVSPurchaseRefund"
+                    android:text="avspurchaserefund"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_attivazione3DS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="on3DSAuthVoid"
+                    android:text="threedsauthvoid"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_3dsspurchasevoid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="on3DSPurchaseVoid"
+                    android:text="threedspurchasevoid"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_3dsauthcapture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="on3DSAuthCapture"
+                    android:text="threedsauthcapture"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <Button
+                    android:id="@+id/btn_3dspurchaserefund"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="on3DSPurchaseRefund"
+                    android:text="threedspurchaserefund"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_attivazionesd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="onSDAuthVoid"
+                    android:text="sdauthvoid"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_sdspurchasevoid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="onSDPurchaseVoid"
+                    android:text="sdpurchasevoid"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_sdauthcapture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="onSDAuthCapture"
+                    android:text="sdauthcapture"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <Button
+                    android:id="@+id/btn_sdpurchaserefund"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="onSDPurchaseRefund"
+                    android:text="sdpurchaserefund"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_attivazionecvv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="onCVVAuthVoid"
+                    android:text="cvvauthvoid"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_cvvpurchasevoid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="onCVVPurchaseVoid"
+                    android:text="cvvpurchasevoid"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_cvvauthcapture"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="onCVVAuthCapture"
+                    android:text="cvvauthcapture"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <Button
+                    android:id="@+id/btn_cvvpurchaserefund"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:onClick="onCVVPurchaseRefund"
+                    android:text="cvvpurchaserefund"
+                    android:layout_column="0"
+                    android:layout_row="15"
+                    />
+                <!--android:layout_gravity="right|bottom"
+                 android:layout_gravity="center"
+                 android:layout_gravity="right|top"-->
+
+                <TextView
+
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1600dp"
+                    android:text="hello_world"
+                    android:layout_column="0"
+                    android:layout_row="17"
+                    />
+      <!--      </GridLayout>-->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--
+    <TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/hello_world" />
+    -->
+
+
+</RelativeLayout>

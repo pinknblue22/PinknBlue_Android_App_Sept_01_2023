@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+           <LinearLayout
+               android:id="@+id/layout_one"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@android:color/white"
+               android:layout_margin="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               android:orientation="vertical">
+               <TextView
+                   android:id="@+id/txt_notification"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Notifications"
+                   android:textColor="@android:color/black"
+                   android:textSize="18sp"
+                   android:padding="15dp"
+                   android:drawableLeft="@mipmap/notifications"
+                   android:drawablePadding="12dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:drawableRight="@mipmap/farword_arrow"/>
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="0.5dp"
+                   android:background="#F0F0F0"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"></View>
+               <TextView
+                   android:id="@+id/txt_profile"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Profile"
+                   android:textColor="@android:color/black"
+                   android:textSize="18sp"
+                   android:padding="15dp"
+                   android:drawableLeft="@mipmap/profile"
+                   android:drawablePadding="12dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:drawableRight="@mipmap/farword_arrow"/>
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="0.5dp"
+                   android:background="#F0F0F0"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"></View>
+               <TextView
+                   android:id="@+id/txt_faq"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="FAQs"
+                   android:textColor="@android:color/black"
+                   android:textSize="18sp"
+                   android:padding="15dp"
+                   android:drawableLeft="@mipmap/faq"
+                   android:drawablePadding="12dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:drawableRight="@mipmap/farword_arrow"/>
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="0.5dp"
+                   android:background="#F0F0F0"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"></View>
+               <TextView
+                   android:id="@+id/txt_contact"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Contact us"
+                   android:textColor="@android:color/black"
+                   android:textSize="18sp"
+                   android:padding="15dp"
+                   android:drawableLeft="@mipmap/contactus"
+                   android:drawablePadding="12dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:drawableRight="@mipmap/farword_arrow"/>
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="0.5dp"
+                   android:background="#F0F0F0"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"></View>
+               <TextView
+                   android:id="@+id/txt_rates"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Rate us"
+                   android:textColor="@android:color/black"
+                   android:textSize="18sp"
+                   android:padding="15dp"
+                   android:drawableLeft="@mipmap/rateus"
+                   android:drawablePadding="12dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="10dp"
+                   android:drawableRight="@mipmap/farword_arrow"/>
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="0.5dp"
+                   android:background="#F0F0F0"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"></View>
+
+               <TextView
+                   android:id="@+id/txt_term"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/tearm"
+                   android:textColor="@android:color/black"
+                   android:textSize="18sp"
+                   android:padding="15dp"
+                   android:drawableLeft="@mipmap/term_condition"
+                   android:drawablePadding="12dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:drawableRight="@mipmap/farword_arrow"/>
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="0.5dp"
+                   android:background="#F0F0F0"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"></View>
+               <TextView
+                   android:id="@+id/txt_privacy"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Privacy Policy"
+                   android:textColor="@android:color/black"
+                   android:textSize="18sp"
+                   android:padding="15dp"
+                   android:drawableLeft="@mipmap/privacy"
+                   android:drawablePadding="12dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:drawableRight="@mipmap/farword_arrow"/>
+
+
+
+
+
+           </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:text="Logout"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/forgot_button"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

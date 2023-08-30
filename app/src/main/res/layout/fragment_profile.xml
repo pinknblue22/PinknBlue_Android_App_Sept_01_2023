@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:id="@+id/txt_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:drawableLeft="@mipmap/edit_email"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btn_edit_pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit profile"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/forgot_button"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+        <Button
+            android:id="@+id/btn_chang_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/forgot_button"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
