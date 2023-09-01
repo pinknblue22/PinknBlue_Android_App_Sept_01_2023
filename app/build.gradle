@@ -7,8 +7,8 @@ android {
         applicationId "com.pinknblue"
         minSdkVersion 21
         targetSdkVersion 33
-        versionCode 10
-        versionName "1.9"
+        versionCode 11
+        versionName "1.10"
         useLibrary 'org.apache.http.legacy'
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
@@ -39,16 +39,16 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     //noinspection GradleCompatible
-    implementation 'androidx.appcompat:appcompat:1.0.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     //noinspection GradleCompatible
-    implementation 'com.google.android.material:material:1.0.0'
-    implementation 'com.google.android.gms:play-services-auth:20.6.0'
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
 
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13.2'
     //noinspection GradleCompatible
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     //noinspection GradleCompatible
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.mikhaellopez:circularimageview:3.0.2'
@@ -58,12 +58,12 @@ dependencies {
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
-    implementation 'com.squareup.okhttp3:okhttp:3.3.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
     implementation 'com.github.d-max:spots-dialog:0.7@aar'
     implementation 'com.squareup.picasso:picasso:2.3.2'
     implementation 'com.squareup.okhttp3:logging-interceptor:3.3.1'
     implementation 'com.android.billingclient:billing:6.0.1'
-    implementation 'org.apache.httpcomponents:httpcore:4.4.1'
+    implementation 'org.apache.httpcomponents:httpcore:4.4.10'
 
     implementation 'net.authorize:accept-sdk-android:1.0.2'
 
